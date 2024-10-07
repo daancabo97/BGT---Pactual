@@ -1,0 +1,29 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Variables de entorno y configuración local
+*.env
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# Directorios y archivos de configuración específicos de MongoDB
+*.bson
+*.sql
+
+# Archivos específicos de FastAPI/Starlette/Uvicorn
+*.pid
+*.ini
