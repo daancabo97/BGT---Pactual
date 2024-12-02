@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from dotenv import load_dotenv
 import os
-from .config import db
+from app.config import db
 from app.routers import clientes, productos, inscripciones, sucursales, disponibilidad, visitan, transacciones
 
 
